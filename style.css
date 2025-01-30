@@ -1,3 +1,7 @@
+* {
+    outline: none;
+}
+
 body { margin: 0; overflow: hidden; height: 100vh; width: 100vw;
 
     background: hsla(3, 96%, 29%, 1);
@@ -56,20 +60,20 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endCo
     margin: 20px auto;
     padding: 0 20px;
 }
-.slide-content {
+.slide {
     opacity: 0;
     transition: opacity 0.3s ease;
     position: absolute;
 }
-.slide-content.active {
+.slide.active {
     opacity: 1;
     position: absolute;
 }
 
 .card-container {
-    position: relative;
+    position: absolute;
     padding: 4px;
-    max-width: 600px;
+    max-width: 500px;
     margin: 40px auto;
 }
 
